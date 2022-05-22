@@ -1,20 +1,23 @@
  #! /bin/bash -x
 
 
-#Unit conversion:1 ft = 12 in then 42 in = ?ft
+#Unit conversion:rectangular plot of 60 feet * 40 feet in meters
 
+if
+   length=60   
+    width=40 
+then
+   area=$[$length*$width]
 
-echo "enter a number to be converted"
-read number
-
-feet=$(($number*12))
-
-inches=$(($number%12))
-
-echo "feet conversion to inches = $feet"
-echo "inches conversion to feet = $inches"
-
-
+   echo "Area of the rectangle in ft is : $area"
+fi
+if
+     area=$[$length*$width]
+then
+      meter=`echo "$area*0.3048"`
+      
+      echo "area of teh rectangular in meter is : $meter"
+fi
 
 
 

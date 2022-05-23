@@ -1,4 +1,4 @@
- #! /bin/bash -x
+#! /bin/bash -x
 
 #part time employee wage
 

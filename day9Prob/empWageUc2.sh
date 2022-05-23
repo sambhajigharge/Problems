@@ -1,4 +1,4 @@
- #! /bin/bash -x
+#! /bin/bash -x
 
 
 #calculate daily emp wage
